@@ -424,6 +424,7 @@ a {
         .blog-wrapper .side-content .newsletter .form-control::-webkit-input-placeholder {
           text-align: center; }
       .blog-wrapper .side-content .newsletter button {
+        cursor: pointer;
         font-size: 14px;
         text-transform: uppercase; }
     .blog-wrapper .side-content .social {
@@ -438,16 +439,54 @@ a {
       background: #fff;
       box-shadow: 0 0 2px #ddd; }
 
+.extra-footer {
+  background: #fff; }
+  .extra-footer .section-content {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd; }
+    .extra-footer .section-content .footer-header {
+      max-width: 135px;
+      background: #fff;
+      position: relative;
+      top: -18px;
+      text-transform: capitalize; }
+    .extra-footer .section-content .fpost .fpost-item .fpost-photo {
+      width: 30%; }
+    .extra-footer .section-content .fpost .fpost-item .fpost-text h6 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-top: 9px;
+      margin-bottom: 0; }
+      .extra-footer .section-content .fpost .fpost-item .fpost-text h6 a:hover {
+        color: #000; }
+    .extra-footer .section-content .fpost .fpost-item .fpost-text time {
+      color: #515151;
+      font-size: 10px;
+      text-transform: uppercase; }
+    .extra-footer .section-content .newsletter .form-control {
+      border-radius: 0;
+      border-color: #757575; }
+      .extra-footer .section-content .newsletter .form-control.placeholder {
+        text-align: center; }
+      .extra-footer .section-content .newsletter .form-control:-moz-placeholder {
+        text-align: center; }
+      .extra-footer .section-content .newsletter .form-control::-webkit-input-placeholder {
+        text-align: center; }
+    .extra-footer .section-content .newsletter button {
+      cursor: pointer;
+      font-size: 14px;
+      text-transform: uppercase; }
+
 .footer {
-  height: 60px;
+  background: #fff;
   color: #000;
-  padding-top: 20px;
   text-align: center; }
   .footer p {
+    color: #515151;
     font-size: 14px;
     font-weight: 400;
     text-transform: capitalize; }
     .footer p a {
-      color: #000; }
+      color: #515151; }
 
 /*# sourceMappingURL=theme.css.map */

@@ -656,6 +656,7 @@ a{
     		}
 
     		button{
+    			cursor: pointer;
     			font-size: 14px;
     			text-transform: uppercase;
     		}
@@ -687,35 +688,90 @@ a{
 // ************************************
 
 
-// CSS For Address Section
-
-
-
-// ************************************
-
-// CSS For Footer Social Section
-
-
-
-// ************************************
-
-
 // CSS For Footer Section
 
+.extra-footer{
+	background: $wcolor;
+
+	.section-content{
+	    border-top: 1px solid #ddd;
+	    border-bottom: 1px solid #ddd;
+
+	    .footer-header{
+    		max-width: 135px;
+		    background: #fff;
+		    position: relative;
+		    top: -18px;
+		    text-transform: capitalize;
+    	}
+
+	    .fpost{
+	    	.fpost-item{
+	    		.fpost-photo{
+	    			width:30%;
+	    		}
+	    		.fpost-text{
+	    			h6{
+	    				font-size: 14px;
+    					font-weight: 600;
+    					margin-top: 9px;
+    					margin-bottom: 0;
+
+    					a{
+    						&:hover{color:$bcolor;}
+    					}
+	    			}
+
+	    			time{
+	    				color: #515151;
+					    font-size: 10px;
+					    text-transform: uppercase;
+	    			}
+	    		}
+	    	}
+	    }
+
+	    .newsletter{
+
+    		.form-control{
+    			border-radius: 0;
+    			border-color: #757575;
+
+    			@include placeholder{
+    				text-align: center;
+    			}
+    		}
+
+    		button{
+    			cursor: pointer;
+    			font-size: 14px;
+    			text-transform: uppercase;
+    		}
+    	}
+	}
+}
+
 .footer{
-    height: 60px;
+    background: $wcolor;
     color: $bcolor;
-    padding-top: 20px;
     text-align: center;
 
     p{
+    	color:#515151;
 	    font-size: 14px;
 	    font-weight: 400;
     	text-transform: capitalize;
 
-    	a{color:$bcolor;}
+    	a {color:#515151;}
     }
 }
+
+// ************************************
+
+
+// CSS For Address Section
+
+
 
 // ************************************
 
