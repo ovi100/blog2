@@ -795,9 +795,23 @@ a{
 // ************************************
 
 
-// CSS For Address Section
+// CSS For About Section
 
+.about{
+	width: 85%;
+    margin: 0 auto;
+	background: $wcolor;
+	box-shadow: 0 0 2px #ddd;
 
+	h4 {font-weight: 600;}
+
+	img{
+		&:hover{
+			@include opacity(0.8);
+			@include transition(all,0.3s,ease);
+		}
+	}
+}
 
 // ************************************
 

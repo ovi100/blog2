@@ -502,4 +502,21 @@ a {
     .footer p a {
       color: #515151; }
 
+.about {
+  width: 85%;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0 2px #ddd; }
+  .about h4 {
+    font-weight: 600; }
+  .about img:hover {
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+
 /*# sourceMappingURL=theme.css.map */
