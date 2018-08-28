@@ -384,6 +384,11 @@ a{
     				}
     			}
     		}
+
+    		.navbar-collapse{
+    			background: $wcolor;
+    			z-index: 10;
+    		}
     	}
     }
 }
@@ -535,6 +540,11 @@ a{
     				font-size: 12px;
 
     				a {color: #757575;}
+
+    				span{
+					    padding-left: 5px;
+						padding-right: 5px;
+    				}
 			    }
 
 			    .post-description {

@@ -25,5 +25,96 @@
 @media only screen and (min-width: 1400px) and (max-width: 1920px) {
   .blog-wrapper {
     width: 60%; } }
+@media only screen and (min-width: 767px) and (max-width: 1024px) and (orientation: landscape) {
+  .home-slider #main-slider img {
+    height: 370px; }
+  .home-slider #main-slider .slider-text-right span {
+    top: 215px;
+    width: 100%;
+    font-size: 18px; }
+  .home-slider #main-slider .slider-text-left span {
+    top: 215px;
+    width: 100%;
+    font-size: 18px; }
+  .home-slider #main-slider .owl-nav .owl-prev {
+    left: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    line-height: 35px; }
+  .home-slider #main-slider .owl-nav .owl-next {
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    line-height: 35px; }
+
+  .blog-wrapper {
+    width: 95%; } }
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .header .logo-social .header-left-icon {
+    text-align: center !important; }
+    .header .logo-social .header-left-icon .header-sidebar {
+      display: none; }
+  .header .logo-social .logo {
+    margin-top: -35px; }
+  .header .logo-social .header-right-icon {
+    position: relative;
+    bottom: 45px;
+    text-align: center !important; }
+
+  .home-slider #main-slider img {
+    height: 370px; }
+  .home-slider #main-slider .slider-text-right span {
+    top: 215px;
+    width: 100%;
+    font-size: 18px; }
+  .home-slider #main-slider .slider-text-left span {
+    top: 215px;
+    width: 100%;
+    font-size: 18px; }
+  .home-slider #main-slider .owl-nav .owl-prev {
+    left: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    line-height: 35px; }
+  .home-slider #main-slider .owl-nav .owl-next {
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    line-height: 35px; }
+
+  .blog-wrapper {
+    width: 95%; }
+
+  .extra-footer .section-content {
+    border-top: 0; }
+
+  .about {
+    width: 95%; }
+
+  .error-page {
+    width: 95%; }
+
+  .author {
+    width: 95%; }
+    .author .author-link ul li {
+      display: inline-block; } }
+@media only screen and (min-width: 480px) and (max-width: 766px) {
+  .header .logo-social .header-left-icon {
+    text-align: center !important; }
+    .header .logo-social .header-left-icon .header-sidebar {
+      display: none; }
+  .header .logo-social .logo {
+    margin-top: -35px; }
+  .header .logo-social .header-right-icon {
+    position: relative;
+    bottom: 45px;
+    text-align: center !important; }
+
+  .blog-wrapper {
+    width: 95%; } }
 
 /*# sourceMappingURL=mediaqueries.css.map */

@@ -47,7 +47,7 @@ $(document).ready(function(){
 	        600:{
 	            items:1
 	        },
-	        768:{
+	        767:{
 	            items:2
 	        }
 	    },
