@@ -795,7 +795,7 @@ a{
 // ************************************
 
 
-// CSS For About Section
+// CSS For About Page
 
 .about{
 	width: 85%;
@@ -815,3 +815,65 @@ a{
 
 // ************************************
 
+
+// CSS For About Page
+
+.author{
+	width: 85%;
+    margin: 0 auto;
+
+	.author-name{
+		background: $wcolor;
+		box-shadow: 0 0 2px #ddd;
+	}
+
+	.author-details{
+		@extend .author-name;
+
+		.author-photo{
+			img{
+			    border: 2px solid #e6e6e6;
+			    border-radius: 50%;
+
+			    &:hover{
+					@include opacity(0.8);
+					@include transition(all,0.3s,ease);
+				}
+			}
+		}
+
+		.author-info{
+			.author-link{
+				ul{
+					li{
+						color:$gcolor;
+						a{
+							color:$gcolor;
+
+							&:hover{color:$gcolor;}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// ************************************
+
+
+// CSS For 404 Page
+
+.error-page{
+	@extend .about;
+
+	h1 {font-size: 120px;}
+
+	p{
+		a{
+			&:hover{color:$gcolor;}
+		}
+	}
+}
+
+// ************************************
